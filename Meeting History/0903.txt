@@ -1,0 +1,35 @@
+[ 9/3 오전 회의 ]
+
+1. 강사님
+- 데이터베이스 구축 시 원래는 스파크 거쳐서 서버의 데이터베이스에 데이터를 저장해야하는데
+- 그냥 스파크 사용안하고 데이터베이스에 저장해서 DS에서 사용할수 있도록 DB 마련
+
+2. 세부 주제 좁히기
+a. 위험도예측
+b. 사고수예측
+c. 이륜에 대한 주제
+=> a,b : 도로관련 데이터에 지역구적인 특성 데이터 피처값들 추가
+
+3. 위험도예측, 사고수예측
+- TMACS의 데이터에 따라 지점명별로 위험도, 사고건수 예측
+- 피처값 : 교통사고관련데이터, 표지판, cctv, 교통량, 거주인구, 밀집 상권유형, 좌표값들의 차이
+- 변하는 변수가 부족한 문제
+- 관련 정보
+https://github.com/abdulwahed786/ROAD-ACCIDENTS-PREDICTION-AND-CLASSIFICATION
+https://github.com/L-Lewis/Predicting-traffic-accidents-CNN
+https://github.com/leportella/federal-road-accidents
+https://www.kaggle.com/c/traffic-accident
+
+4. 나아가야 할 최종 서비스는?
+- 위험도, 사고수예측해서 안전경로로 나아갈건지
+- 위험도, 사고수, 이륜을 해서 종합된 걸로 나아갈건지
+
+
+[ 9/3 13:00 ]
+
+1. DE에서 가용데이터 구축시작, DS에서 분석방향 좀더 찾아보기
+
+2.
+- 교통량 데이터 필수적 / 교통량을 사고다발지역에 매칭할 수 있는지 => 중요한 문제
+- 지점별 날씨데이터 (과거데이터), 시간대 수집하기
+- 좌표값들의 차이
