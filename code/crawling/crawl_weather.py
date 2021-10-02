@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-# import pymysql
+import pymysql
 import requests
 # from bs4 import BeautifulSoup
 from urllib3.util.retry import Retry
