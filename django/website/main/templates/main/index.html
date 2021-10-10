@@ -1,0 +1,978 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>traffic_2</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href='{%static "main/img/favicon.png" %}' rel="icon">
+  <link href='{%static "main/img/apple-touch-icon.png" %}' rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href='{%static "main/vendor/aos/aos.css" %}' rel="stylesheet">
+  <link href='{%static "main/vendor/bootstrap/css/bootstrap.min.css" %}' rel="stylesheet">
+  <link href='{%static "main/vendor/bootstrap-icons/bootstrap-icons.css" %}' rel="stylesheet">
+  <link href='{%static "main/vendor/glightbox/css/glightbox.min.css" %}' rel="stylesheet">
+  <link href='{%static "main/vendor/swiper/swiper-bundle.min.css" %}' rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href='{%static "main/css/style.css" %}' rel="stylesheet">
+
+  <!-- Bootstrap 사용 위해 추가하는 코드-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  
+  <!-- Font Awesome 사용 위해 추가하는 코드-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- =======================================================
+  * Template Name: NewBiz - v4.5.0
+  * Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <!-- Uncomment below if you prefer to use an text logo -->
+        <!-- <h1><a href="index.html">NewBiz</a></h1> -->
+        <a href=""><img src='{%static "main/img/josim.png" %}'  alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Main</a></li>
+          <li><a class="nav-link scrollto" href="#about">Exhibit</a></li>
+          <li><a class="nav-link scrollto" href="#back">Backgroud</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          {% comment %} <li><a class="nav-link scrollto " href="#portfolio">Visulization</a></li> {% endcomment %}
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          {% comment %} <li class="dropdown"><a href="#"><span>드랍다운</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul> {% endcomment %}
+          {% comment %} </li> {% endcomment %}
+          {% comment %} <li><a class="nav-link scrollto" href="#contact">Contact</a></li> {% endcomment %}
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- #header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="clearfix">
+    <div class="container" data-aos="fade-up">
+
+      <div class="hero-img" data-aos="zoom-out" data-aos-delay="200">
+        <img src='{%static "main/img/" %}' align="right" width=80%; alt="" class="img-fluid">
+      </div>
+
+      <div class="hero-info" data-aos="zoom-in" data-aos-delay="100">
+        <h2><br>교통사고 데이터를 활용한<br>머신러닝 프로젝트<br></h2>
+        <div>
+          <a href="../" class="btn-get-started scrolloto">HOME</a>
+          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Hero Section -->
+
+
+
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+
+
+    
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>EXHIBIT</h3>          
+          <p>
+            저희 프로젝트는 서울특별시 종로구를 주 대상지로 하여, 교통사고 데이터,실시간 날씨, 교통량 데이터를 통해 서울시 기초분석 및 머신러닝 학습을 실시하였습니다.
+          </p>
+        </header>
+
+        <div class="row about-container">
+
+<div class="row about-extra">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            <img src='{%static "main/img/종로구 교통량,속도 측정 지점_.png" %}' align= 'right'; width=95%; class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right">
+		  <h4>머신러닝을 활용한 서울시 특정지점 교통량 예측<br><br> 및 위험도 측정<br></h4>
+		  <p><br>
+              교통사고 데이터(교통사고세부데이터,교통량,실시간 날씨 데이터를 활용하여 머신러닝을 활용한 교통량 예측을 합니다.            </p>
+            <p>
+              교통량 측정지점과 사고 다발 구간이 25개구 중 가장 급접하게 위치하는 장소 5곳을 선정합니다.
+            </p>
+            <p>
+              사고 다발 지점과 교통량의 상관관계를 최소의 오차로 파악하기 위해서 입니다.
+            </p>
+          </div>
+
+        </div>
+
+
+      <div class="row about-container">   
+
+          <div class="col-lg-6 content order-lg-1 order-2" style="padding-top:80px;">
+            <!-- <p>
+            </p> -->
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+	      <h4 class="title"><a href="">Modeling intro.<br></a></h4>
+              <p class="description">페이스북의 Prophet을 사용합니다.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-brightness-high"></i></div>
+	      <h4 class="title"><a href="">Modeling Result<br></a></h4>
+              <p class="description">과거 및 실시간교통데이터로 7일 예측 결과 지점별 RMSE가 최대 250대로 발생하며 10%전후 입니다.</p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+	      <h4 class="title"><a href="">Modeling Review<br></a></h4>
+              <p class="description">코로나-19 국내 확산 기점인 2020년 전후 교통량 추이가 달라졌습니다.</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2" data-aos="zoom-in">
+            <img src='{%static "main/img/광화문_7일예측.png" %}' 
+            width="170%" 
+						height="170%" 
+            align='right'; class="img-fluid" alt="">
+            
+            {% comment %} {{ pred_y }} {% endcomment %}
+
+
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src='{%static "main/img/map_.png" %}' width=500%; class="img-fluid" alt="">
+            {% comment %} <a href="portfolio-details.html" class="img-fluid" alt=""></a> {% endcomment %}
+          </div>
+          <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
+		  <h4><br>Data Analisys Part<br><br></h4>
+		  <p><br>
+              사고발생 상위 5곳은 영등포구, 강남구, 송파구, 서초구, 마포구 입니다.
+            </p>
+            <p>
+              사고발생 하위 5곳은 성동구,은형구,강동구,서대문구, 도봉구 입니다.
+            </p>
+	    <P><br><br>
+              자치구별 등록인구, 자동차등록대수, 차량용도, 사업체 및 업종별 종사자 수등을 통계 내어 교통량 상관관계를 분석했습니다.
+	      <br></P><br>
+	    <p><br>
+	    서울시 각 자치구별의 자세한 2017-2019년도의 통계(사고수 변화,부상경도 변화,사고등급 분포,사고유형 분포 등)를 시각통계자료에서 확인하실 수 있습니다.
+            </p>
+          </div>
+        </div>
+
+        {% comment %} <div class="row about-extra"> {% endcomment %}
+          
+
+      
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {% comment %} <main id="main"> {% endcomment %}
+
+    <!-- ======= About Section ======= -->
+
+  <section id="back">
+
+
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Project Background</h3>
+          <p>
+            프로젝트 선정배경
+          </p>
+        </header>
+
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p>
+              {% comment %} 안녕하세요 2조 차조심하조의 프로젝트 소개 페이지입니다. 저희는 교통사고 데이터를 활용한 교통사고 분석 및 머신러닝 프로젝트를 기획했습니다. {% endcomment %}
+            </p>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+              <h4 class="title"><a href="">프로젝트 배경</a></h4>
+              <p class="description">
+                2017년 기준 교통사고 사망자가 많은 국가 13위입니다. 안타깝게도 2018년도 기준 10만 명당 교통사고 건수가 OECD국가 중 1위를 하였습니다. 하루 평균적으로 572건의 교통사고가 발생하고 있기때문입니다.
+              </p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="bi bi-brightness-high"></i></div>
+              <h4 class="title"><a href="">프로젝트 목표</a></h4>
+              <p class="description">                
+                저희 프로젝트가 필요할 서비스 대상자를 교통데이터로 탐색하고 지점별 교통량과 실시간 위험도를 제공합니다. 
+              </p>
+            </div>
+
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+              <h4 class="title"><a href="">프로젝트 일정 및 프로세스</a></h4>
+              <p class="description">
+                2021년 8월 30일부터 주제를 탐색하고 선정했습니다.
+                9월 1주차부터 데이터탐색을 하고 필요한 데이터를 지속적으로 탐색했습니다.  
+                9월 2주차부터 엔지니어 팀은 실시간 연동과 데이터 전처리를 하고 사이언스 팀은 교통량과 위험도 예측을 위해 머신러닝 모델링을 수행했습니다.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2" data-aos="zoom-in">
+            <img src='{%static "main/img/trans.ac.jpg" %}' class="img-fluid" alt="">
+            
+            {% comment %} {{ pred_y }} {% endcomment %}
+
+
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src='{%static "main/img/machine.jpg" %}' width=500%; class="img-fluid" alt="">
+            {% comment %} <a href="portfolio-details.html" class="img-fluid" alt=""></a> {% endcomment %}
+          </div>
+          <div class="col-lg-6 pt-5 pt-lg-0" data-aos="fade-left">
+		  <h4>교통량 예측 및 지점별 사고위험도 측정<br></h4>
+	    <P><br>
+              문헌조사에서 교통량-교통사고간의 밀접관계를 확인하여, 시계열 분석에 적합한 교통량으로 모델 수행했습니다.
+            </P>
+            <p>
+              일반적으로 교통량이 많아지면 교통상충(교통량이 합쳐지고 나뉠 때 일어날 수 있는 차량충돌)이 증가하여 교통사고가 증가합니다.
+            </p>
+            <p>
+              교통사고는 취약지점으로 이루어진 군집형태를 형성하며 나타나는데, 이는 교통사고가 주로 교통량에 의해 영향 받기 때문입니다.
+            </p>
+            <p>
+               참고문헌: 교통사고에 안전한 국토 구현(국토연구원 2014 보고서)
+            </p>
+            <p>
+              여러 변수를 활용하여 사고위험도를 산정하고, 실시간 데이터기반으로 위험도 시각화 서비스 제공합니다.
+            </p>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            <img src='{%static "main/img/기대효과.png" %}' class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right">
+		  <h4>기대효과<br></h4>
+		  <p><br>
+              교통사고 시각화 자료를 통해 각 자치구별로 사고현황에 대해 파악하고, 사고를 감소시키기 위해 알맞은 정책적 방안을 마련하기 위한 근거가 될 수 있을 것입니다.
+            </p>
+            <p>
+              운전자들에게 안전경로를 추천할 수 있고, 운전자가 선택적인 의사결정을 함으로써 사고다발지의 교통량 분배와 운전자들의 안전의식을 고취할 수 있을 것이라고 기대합니다.
+            </p>
+            <p>
+              그럼으로써 교통량과 도로 위험도 예측을 통해 사고다발지점의 사고 감소율을 낮출 수 있습니다.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="section-bg" style="padding-bottom: 160px;">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Services</h3>
+        </header>
+
+        <br><br><br>
+        <div class="row justify-content-center">
+
+          <div class="col-md-6 col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box" style="margin-right: 50px;">
+              <span class="icon" style="left: 0px;"><i class="fa fa-bar-chart" style="color: #ff689b;"></i></span>
+              <h4 class="title"><a href="">서울시 교통사고 현황 시각화</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box" style="margin-left: 50px;">
+              <div class="icon" style="left: 0px;"><i class="fa fa-car" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a href="">교통량 예측</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box" style="margin-right: 50px; margin-top: 50px;">
+              <div class="icon" style="left: 0px;"><i class="fa fa-exclamation-triangle" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">사고위험도 예측</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box" style="margin-left: 50px; margin-top: 50px;"">
+              <div class="icon" style="left: 0px;"><i class="fa fa-clock-o" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="">실시간 데이터 기반 예측</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div>
+
+          <!-- <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <div class="icon"><i class="bi bi-brightness-high" style="color: #d6ff22;"></i></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <div class="icon"><i class="bi bi-calendar4-week" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <!-- <section id="why-us">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h3>Why choose us?</h3>
+          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+              <i class="bi bi-calendar4-week"></i>
+              <div class="card-body">
+                <h5 class="card-title">Corporis dolorem</h5>
+                <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
+              <i class="bi bi-camera-reels"></i>
+              <div class="card-body">
+                <h5 class="card-title">Voluptates dolores</h5>
+                <p class="card-text">Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur.</p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card" data-aos="zoom-in" data-aos-delay="300">
+              <i class="bi bi-chat-square-text"></i>
+              <div class="card-body">
+                <h5 class="card-title">Eum ut aspernatur</h5>
+                <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
+                <a href="#" class="readmore">Read more </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row counters" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="421" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1364" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hard Workers</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>End Why Us Section -->
+
+    {% comment %} <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="clearfix">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3 class="section-title">Visulization</h3>
+        </header>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src='{%static "main/img/portfolio/app1.jpg" %}' class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 1</a></h4>
+                <p>App</p>
+                <div>
+                  <a href='{%static "main/img/portfolio/app1.jpg" %}' data-gallery="portfolioGallery" title="App 1" class="portfolio-lightbox link-preview"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src='{%static "main/img/portfolio/web3.jpg" %}' class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Web 3</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href='{%static "main/img/portfolio/web3.jpg" %}' class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src='{%static "main/img/portfolio/app2.jpg" %}' class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 2</a></h4>
+                <p>App</p>
+                <div>
+                  <a href='{%static "main/img/portfolio/app2.jpg" %}' class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="App 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src='{%static "main/img/portfolio/card2.jpg" %}' class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Card 2</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href='{%static "main/img/portfolio/card2.jpg" %}' class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Card 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src='{%static "main/img/portfolio/web2.jpg" %}' class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Web 2</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href='{%static "main/img/portfolio/web2.jpg" %}' class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Web 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src='{%static "main/img/portfolio/app3.jpg" %}' class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">App 3</a></h4>
+                <p>App</p>
+                <div>
+                  <a href='{%static "main/img/portfolio/app3.jpg" %}' class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="App 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section --> {% endcomment %}
+
+    <!-- ======= Testimonials Section ======= -->
+    {% comment %} <section id="testimonials" class="section-bg">
+      <div class="container" data-aso="zoom-in">
+
+        <header class="section-header">
+          <h3>Testimonials</h3>
+        </header>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="/website/main/templates/main/assets/img/testimonial-1.jpg" class="testimonial-img" alt="">
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                    <p>
+                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="/website/main/templates/main/assets/img/testimonial-2.jpg" class="testimonial-img" alt="">
+                    <h3>Sara Wilsson</h3>
+                    <h4>Designer</h4>
+                    <p>
+                      Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="/website/main/templates/main/assets/img/testimonial-3.jpg" class="testimonial-img" alt="">
+                    <h3>Jena Karlis</h3>
+                    <h4>Store Owner</h4>
+                    <p>
+                      Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="/website/main/templates/main/assets/img/testimonial-4.jpg" class="testimonial-img" alt="">
+                    <h3>Matt Brandon</h3>
+                    <h4>Freelancer</h4>
+                    <p>
+                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <img src="/website/main/templates/main/assets/img/testimonial-5.jpg" class="testimonial-img" alt="">
+                    <h3>John Larson</h3>
+                    <h4>Entrepreneur</h4>
+                    <p>
+                      Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section --> {% endcomment %}
+
+    <!-- ======= Team Section ======= -->
+    <section id="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3>Team Member</h3>
+          <h3>김하연 김장호 최윤선 복혜빈</h3>
+        </div>
+
+        <!-- <div class="row">
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="100">
+            <div class="member">
+              <img src="/website/main/templates/main/assets/img/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="200">
+            <div class="member">
+              <img src="/website/main/templates/main/assets/img/team-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="300">
+            <div class="member">
+              <img src="/website/main/templates/main/assets/img/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-out" data-aos-delay="400">
+            <div class="member">
+              <img src="/website/main/templates/main/assets/img/team-4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Amanda Jepson</h4>
+                  <span>Accountant</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div> -->
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h3>Skills</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
+        </div>
+
+        <div class="row g-0 clients-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+
+
+              <a href=""><img src='{%static "main/img/python.png" %}' alt="" class="img-fluid"></a>
+
+              {% comment %} <img src="main/img/ubuntu.png" class="img-fluid" alt=""> {% endcomment %}
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <a href=""><img src='{%static "main/img/ubuntu.png" %}'  alt="" class="img-fluid"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <a href=""><img src='{%static "main/img/spark.png" %}'  alt="" class="img-fluid"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <a href=""><img src='{%static "main/img/mysql.png" %}' width=100%; alt="" class="img-fluid"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <a href=""><img src='{%static "main/img/django.png" %}'  alt="" class="img-fluid"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <a href=""><img src='{%static "main/img/jupyter.png" %}'  alt="" class="img-fluid"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <a href=""><img src='{%static "main/img/crontab.png" %}'  alt="" class="img-fluid"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <a href=""><img src='{%static "main/img/sel.png" %}'  alt="" class="img-fluid"></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    {% comment %} </section> -->
+    <!-- End Clients Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h3>Contact Us (차조심하조)</h3>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="map mb-4 mb-lg-0">
+              {% comment %} <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 340px;" allowfullscreen></iframe> {% endcomment %}
+            {% comment %} </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-5 info">
+                <i class="bi bi-geo-alt"></i>
+                <p>Repulic of Korea, Seoul, gangnam street</p>
+              </div>
+              <div class="col-md-4 info">
+                <i class="bi bi-envelope"></i>
+                <p>
+                  
+                </p>
+              </div>
+              <div class="col-md-3 info">
+                <i class="bi bi-phone"></i>
+                <p>
+                  
+                </p>
+              </div>
+            </div>
+
+            <div class="form">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="form-group col-lg-6 mt-3 mt-lg-0"> {% endcomment %} 
+                    {% comment %} <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div> {% endcomment %}
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>차조심하조</h3>
+            <p>멀티캠퍼스 파이널프로젝트에서 구성된 팀입니다.</p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <!-- <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              차조심하조 <br>
+              대한민국, 서울<br>
+              <br>
+              <!-- <strong>Phone:</strong>--- <br> -->
+              <strong>Email:</strong> <br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>ANALISYS DATA</h4>
+            <p>
+              실시간 교통량 데이터, 실시간 날씨데이터, 실시간 교통 속도 데이터,교통사고 세부데이터,사고지점별 좌표데이터, CCTV데이터,표지판 데이터, 과거 교통량 데이터, 과거 날씨 데이터 
+            </p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Cha JoSim HaJo</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src='{%static "main/vendor/aos/aos.js" %}'></script>
+  <script src='{%static "main/vendor/bootstrap/js/bootstrap.bundle.min.js" %}'></script>
+  <script src='{%static "main/vendor/glightbox/js/glightbox.min.js" %}'></script>
+  <script src='{%static "main/vendor/isotope-layout/isotope.pkgd.min.js" %}'></script>
+  <script src='{%static "main/vendor/php-email-form/validate.js" %}'></script>
+  <script src='{%static "main/vendor/purecounter/purecounter.js" %}'></script>
+  <script src='{%static "main/vendor/swiper/swiper-bundle.min.js" %}'></script>
+
+  <!-- Template Main JS File -->
+  <script src='{%static "main/js/main.js" %}'></script>
+
+  <!-- Bootstrap 사용 위해 추가하는 코드-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+
+</html>

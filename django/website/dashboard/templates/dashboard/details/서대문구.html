@@ -1,0 +1,189 @@
+{% extends "../layouts/base.html" %}
+
+{% block title %} Dashboard {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+{% endblock stylesheets %}
+
+{% block content %}
+			
+<div class="content">
+    <div class="panel-header bg-primary-gradient">
+        <div class="page-inner">
+            <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
+                <div>
+                    <h2 class="text-white pb-2 fw-bold">서대문구</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+
+
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-right"	data-aos-delay="50"	data-aos-duration="1000" style="padding: 160px 30px 30px 130px;">
+                <img 
+                    src="/static/dashboard/img/logo/logo_seodaemun.jpg" 
+                    width="70%" 
+                    height="80%"
+                    align="left">
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000" style="padding: 150px 100px 30px 100px;">
+                
+
+
+
+
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+            {% comment %} <img src='{%static "main/img/machine.jpg" %}' align= 'right'; width=95%; class="img-fluid" alt=""> {% endcomment %}
+            </div>
+
+
+
+
+
+
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+
+
+
+
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+            <div style="border: 10px solid blue; float: left; line-height:10em; height: 300px; width: 500px; margin: 50px 25px 100px 0px;">
+             <div style="text-align:center;">
+
+             
+                <h2><b>희망찬 서대문구<b><br></h2>
+                <h3><br>충현동은 서울 도심부의 외곽을 형성하는 상업·업무지구이며 그 주변의 북아현동·천연동 일대는 오래 전부터 형성된 주택 지대이다. 신촌(新村)은 서울 부도심(副都心)의 하나로 신촌 로터리 주변은 상업지구이며 또 연세대학교·이화여자대학교·서강대학교·홍익대학교·명지대학교 등의 대학가를 이루고 있다. 홍제동은 예로부터 황해도·평안도 방면으로 통하는 길목에 위치하여 서울의 북서쪽 관문 역할을 한 곳이다.
+                </h3>
+             </div>
+            </div>
+        </header>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+    </section>
+
+            </div>
+        </div>
+    
+
+
+
+
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-right"	data-aos-delay="50"	data-aos-duration="1000" style="padding: 30px 30px 30px 30px;">
+                <img 
+                    src="/static/dashboard/img/details/서대문구_사고수변화그래프.png" 
+                    width="80%" 
+                    height="100%"
+                    align="left">
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000" style="padding: 150px 100px 30px 100px;">
+                <img 
+                    src="/static/dashboard/img/details/서대문구프레임.png" 
+                    width="130%" 
+                    height="80%"
+                    align="right">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" style="padding: 30px 30px 30px 30px;">
+                <img 
+                    src="/static/dashboard/img/details/서대문구 3년간 법규위반 분포.png"
+                    width="100%" 
+                    height="100%"
+                    align="center">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" style="padding: 30px 30px 30px 30px;">
+                <img 
+                    src="/static/dashboard/img/details/서대문구 3년간 부상자수 변화.png"
+                    width="100%" 
+                    height="110%"
+                    align="center">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" style="padding: 130px 15px 15px 250px;">
+                <img 
+                    src="/static/dashboard/img/details/서대문구 년도별 사고유형1 비교.png"
+                    width="90%" 
+                    height="90%"
+                    align="center">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000" style="padding: 15px 15px 15px 250px;">
+                <img 
+                    src="/static/dashboard/img/details/서대문구 년도별 사고유형2 비교.png"
+                    width="90%" 
+                    height="90%"
+                    align="center">
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+	<!-- Bootstrap 사용 위해 추가하는 코드-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+	<!-- aos 효과 -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+{% endblock javascripts %}
