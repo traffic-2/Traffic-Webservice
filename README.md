@@ -1,7 +1,7 @@
-# Machine Learning project
+# 교통 데이터를 통한 웹 서비스 프로젝트
 
-### Title : 차조심하조
-### 교통사고 데이터를 통한 구 단위 사고수 예측 프로젝트 (예시)
+![traffic_2_main](https://user-images.githubusercontent.com/85288036/136682471-8bb94cc9-c4ec-4d3a-882b-d6dcc113b492.PNG)
+
 
 
 ## 📖 Contents  
@@ -16,9 +16,9 @@
 최윤선
 
 ## 💻 DevTech  
-Language : Python, AWS, Spark, Django ,SQL
+Language : Python, AWS, Spark, Django ,SQL, Ubuntu
 
-skill : DataProcessing, Crawling, DataMining, EDA, crontab
+skill : DataProcessing, Crawling(selinium), DataMining, EDA, crontab
 
 web : Django(ver 2.2.7)  
 
