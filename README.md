@@ -17,7 +17,7 @@
 최윤선
 
 ## 💻 DevTech  
-Language : Python, AWS, Spark, Django ,SQL, Ubuntu
+Language : Python, AWS, Spark, Django ,MYSQL, Ubuntu
 
 skill : DataProcessing, Crawling(selinium), DataMining, EDA, crontab
 
